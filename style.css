@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(68, 163, 163);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 90vh;
+    width: 60vh;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.input{
+    width: 46vh;
+    padding-top: 60px;
+   outline: none;
+   border: none; 
+   text-align: right;
+   font-size: 30px;
+ } 
+
+.calc{
+    height: 70vh;
+    width: 46vh;
+}
+
+.btn{
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: rgb(202, 235, 224);
+    border: none;
+}
+
+.box2{
+    gap: 15px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(202, 235, 224);
+}
+
+.opr{
+    color: rgb(21, 204, 204);
+    font-size: 25px;
+}
+
+.del{
+    padding: 15px;
+}
